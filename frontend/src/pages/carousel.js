@@ -5,11 +5,11 @@ const Carousel = () => {
 
   const slides = [
     {
-      imageUrl: '/image-portfolio.jpg',
+      imageUrl: '/6278a4453595ee0571accd5b_milad-fakurian-PpgY7sjpf_0-unsplash.webp',
       linkUrl: 'https://www.youtube.com/',
     },
     {
-      imageUrl: '/image-portfolio.jpg',
+      imageUrl: '/6278a444665242bf69132eff_sebastian-svenson-LpbyDENbQQg-unsplash.webp',
       linkUrl: '/link-to-page-2',
     },
     {
@@ -40,7 +40,7 @@ const Carousel = () => {
     <h1 className='text-6xl sm:text-8xl md:text-8xl font-light mb-8 font-archivo ml-0 sm:ml-0 md:ml-0 lg:-ml-24'>My Work</h1>
       <div id="controls-carousel" className="relative w-full" data-carousel="static">
         {/* Carousel wrapper */}
-        <div className="relative h-56 overflow-hidden rounded-sm md:h-96">
+        <div className="relative h-56 overflow-hidden rounded-none md:h-96">
           {/* Render all images but only show active one */}
           {slides.map((slide, index) => (
             <div
