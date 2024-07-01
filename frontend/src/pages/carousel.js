@@ -35,7 +35,9 @@ const Carousel = () => {
   };
 
   return (
+    <>
     <div className="max-w-screen-lg mx-auto py-6 px-4 sm:px-6 lg:px-8 mb-20">
+    <h1 className='text-4xl sm:text-8xl md:text-8xl font-light mb-8 font-archivo ml-0'>My Work</h1>
       <div id="controls-carousel" className="relative w-full" data-carousel="static">
         {/* Carousel wrapper */}
         <div className="relative h-56 overflow-hidden rounded-sm md:h-96">
@@ -97,6 +99,8 @@ const Carousel = () => {
         </button>
       </div>
     </div>
+    </>
+   
   );
 };
 
