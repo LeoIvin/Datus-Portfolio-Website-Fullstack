@@ -13,17 +13,13 @@ const Carousel = () => {
       linkUrl: '/link-to-page-2',
     },
     {
-      imageUrl: '/image-portfolio.jpg',
+      imageUrl: '/6278a445bfb6d450cebfcc9c_daniele-levis-pelusi-Si_bmG2xo-c-unsplash.webp',
       linkUrl: '/link-to-page-3',
     },
     {
-      imageUrl: '/docs/images/carousel/carousel-4.svg',
+      imageUrl: '/6278a44558ba7cb56d962412_theodore-black-Ltgg9uGi7tE-unsplash.webp',
       linkUrl: '/link-to-page-4',
-    },
-    {
-      imageUrl: '/docs/images/carousel/carousel-5.svg',
-      linkUrl: '/link-to-page-5',
-    },
+    }
   ];
 
   const prevSlide = () => {
