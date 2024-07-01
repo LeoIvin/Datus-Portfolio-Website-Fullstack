@@ -5,6 +5,7 @@ import Form from "./form";
 import Carousel from "./carousel";
 import CTA from "./cta";
 import Footer from "./footer";
+import Testimonials from "./testimonial";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <MainSection />
     <AboutMe />
     <Carousel />
+    <Testimonials />
     <CTA />
     <Footer />
     {/* <Form /> */}

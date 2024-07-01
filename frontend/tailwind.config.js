@@ -15,7 +15,8 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'image-portfolio': "url('/image-portfolio.jpg')",
-      },
+        'whatsapp': "url('/WhatsApp Image 2024-05-21 at 22.02.33_b1cface6.jpg')"
+      }, 
       colors: {
         'work-tg': '#161616',
       },
