@@ -27,7 +27,7 @@ function MainSection() {
         </div> */}
       </main>
       <footer className="absolute bottom-0 flex flex-row items-center p-4 space-x-1">
-        <button onClick={() => scrollToSection('aboutText')}><MouseIcon className="w-6 h-6 mb-2" /></button>
+        <button onClick={() => scrollToSection('myWork')}><MouseIcon className="w-6 h-6 mb-2" /></button>
         <p className="text-xs font-ibm-plex-sans mb-2">Scroll Down</p>
       </footer>
     </div>
