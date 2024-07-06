@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <>
-        <div className="flex flex-col items-center mb-7">
+        <div className="flex flex-col items-center mb-16">
             <h1 className="font-ibm-plex-sans text-lg">Crafted by <Link href="#" className="underline hover:text-violet-700 font-ibm-plex-sans text-lg">DatusAI</Link> &copy; {year}</h1>
         </div>
         </>

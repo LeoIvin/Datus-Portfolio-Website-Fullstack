@@ -36,3 +36,20 @@ body {
   color: white;
   background-color: rgb(109 40 217 / var(--tw-text-opacity));
 }
+
+/* styles.css or your component-specific CSS file */
+.transition-opacity {
+  transition-property: opacity;
+}
+
+.hidden {
+  display: none;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
