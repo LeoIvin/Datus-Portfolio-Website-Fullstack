@@ -13,7 +13,7 @@ function MainSection() {
       <header className="absolute top-0 left-0 flex items-center justify-between w-full p-4">
         <div className="text-xl sm:text-3xl font-bold font-ibm-plex-sans ml-8">DATUS.</div>
         <button onClick={() => scrollToSection('CTA')} className="bg-work-tg text-white rounded-full px-4 py-2 font-ibm-plex-sans text-sm sm:text-lg mr-8">
-            <a href="#">Let's work together</a>
+            <a href="#">Contact Me</a>
         </button>
       </header>
       <main className="flex flex-col items-center justify-center flex-1">

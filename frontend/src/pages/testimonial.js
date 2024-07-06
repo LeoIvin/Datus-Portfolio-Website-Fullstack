@@ -5,13 +5,13 @@ const testimonials = [
     quote: "The best designer I’ve ever worked with. He redesigned our website and worked on a variety of projects, from iOS apps to advertising designs and he consistently creates top-quality designs which are stunningly smart and beautiful in every detail.",
     name: "Marilyn Monroe",
     title: "Content Writer",
-    image: "/WhatsApp Image 2024-05-21 at 22.02.33_b1cface6.jpg", // Placeholder image
+    image: "/WhatsApp Image 2024-05-21 at 22.02.33_b1cface6.jpg", 
   },
   {
     quote: "We’ve been working with David on multiple projects for the last 2 years. He has delivered consistent high quality designs for our web, and apps. He is a great communicator, always meets deadlines and has a great understanding of UX.",
     name: "Dennis Hopper",
     title: "Developer",
-    image: "/image-portfolio.jpg", // Placeholder image
+    image: "/image-portfolio.jpg", 
   }
 ];
 

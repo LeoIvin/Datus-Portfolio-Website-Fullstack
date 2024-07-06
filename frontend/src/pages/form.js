@@ -30,7 +30,7 @@ function Form() {
     <div className="">
       {submitted ? (
         <div className="flex justify-center items-center mb-24">
-          <h2 className="text-2xl font-semibold font-archivo text-green-600 hover:text-green-700 tracking-wide">Form Submitted Successfully</h2>
+          <h2 className="text-2xl font-semibold font-archivo text-white hover:text-violet-400 tracking-wide">Form Submitted Successfully</h2>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="max-w-sm mx-auto mb-16 mt-11">

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from 'next/link';
-import Form from './form';  // Import the Form component
-
+import Form from './form';  
 function CTA() {
   const [showForm, setShowForm] = useState(false);
 
@@ -16,7 +15,7 @@ function CTA() {
         <h1 
           className="text-7xl sm:text-9xl md:text-9xl hover:text-violet-700 font-archivo tracking-wide cursor-pointer transition-colors duration-300" 
           onClick={handleToggleForm}
-          style={{ color: showForm ? '#8b5cf6' : 'inherit' }} // Change color on click
+          style={{ color: showForm ? '#8b5cf6' : 'inherit' }} 
         >
           Let's Talk
         </h1>
