@@ -35,6 +35,7 @@ async def get_form_by_name(fullName: str):
 async def post_form(form: Forms):
     try:
         collection.insert_one(dict(form))
+        return {"message": "Form submitted successfully"}
     except Exception as e:
         return HTTPException(status_code=400, detail="Form could not be posted")
     

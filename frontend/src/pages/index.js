@@ -17,7 +17,7 @@ function App() {
     <Testimonials />
     <CTA />
     <Footer />
-    {/* <Form /> */}
+    <Form />
     </>
   )
 }
