@@ -1,6 +1,12 @@
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
-client = MongoClient("mongodb+srv://leoivin0:1hiOnEyMNuOMkJjh@cluster0.xlgvnhc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+load_dotenv()
+
+MONGO_URI = os.getenv('MONGO_URI')
+
+client = MongoClient(MONGO_URI)
 
 db = client.PortfolioDB
 
